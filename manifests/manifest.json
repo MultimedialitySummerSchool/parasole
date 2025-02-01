@@ -1,0 +1,53 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://MultimedialitySummerSchool.github.io/parasole/manifests/manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "none" : [ "1_Specchio_delle_virtuose_donne_Isabella_Title_Page" ]
+  },
+  "thumbnail" : [ {
+    "id" : "http://127.0.0.1:8080/1/e4ba377410170cf98289adb05d58b2aa/full/300,228/0/default.jpg",
+    "type" : "Image",
+    "format" : "image/jpeg",
+    "height" : 228,
+    "width" : 300
+  } ],
+  "items" : [ {
+    "id" : "http://127.0.0.1:8080/1/canvas/1",
+    "type" : "Canvas",
+    "height" : 1054,
+    "width" : 1389,
+    "label" : {
+      "none" : [ "1_Specchio_delle_virtuose_donne_Isabella_Title_Page" ]
+    },
+    "thumbnail" : [ {
+      "id" : "http://127.0.0.1:8080/1/e4ba377410170cf98289adb05d58b2aa/full/300,228/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 228,
+      "width" : 300
+    } ],
+    "items" : [ {
+      "id" : "http://127.0.0.1:8080/1/canvas/1/annopage-1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "http://127.0.0.1:8080/1/canvas/1/annopage-1/anno-1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "http://127.0.0.1:8080/1/canvas/1",
+        "body" : {
+          "id" : "http://127.0.0.1:8080/1/e4ba377410170cf98289adb05d58b2aa/full/1389,1054/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1054,
+          "width" : 1389,
+          "service" : [ {
+            "id" : "http://127.0.0.1:8080/1/e4ba377410170cf98289adb05d58b2aa",
+            "type" : "ImageService3",
+            "profile" : "http://iiif.io/api/image/3/level0.json"
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
