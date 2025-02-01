@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 65,
+    "height" : 91
+  }, {
+    "width" : 129,
+    "height" : 182
+  }, {
+    "width" : 257,
+    "height" : 364
+  }, {
+    "width" : 514,
+    "height" : 728
+  }, {
+    "width" : 1027,
+    "height" : 1455
+  }, {
+    "width" : 2054,
+    "height" : 2910
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 2054,
+  "@id" : "https://MultimedialitySummerSchool.github.io/parasole/images/LP_Dialoghi_Magino_Gabrielli",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 2910
+}

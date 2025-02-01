@@ -90,6 +90,87 @@
             ]
         },
         {
+            "id": "https://MultimedialitySummerSchool.github.io/parasole/images/LP_Dialoghi_Magino_Gabrielli/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "LP_Dialoghi_Magino_Gabrielli"
+                ]
+            },
+            "height": 2910,
+            "width": 2054,
+            "items": [
+                {
+                    "id": "https://MultimedialitySummerSchool.github.io/parasole/images/LP_Dialoghi_Magino_Gabrielli/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://MultimedialitySummerSchool.github.io/parasole/images/LP_Dialoghi_Magino_Gabrielli/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://MultimedialitySummerSchool.github.io/parasole/images/LP_Dialoghi_Magino_Gabrielli/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 65,
+                                                "height": 91
+                                            },
+                                            {
+                                                "width": 129,
+                                                "height": 182
+                                            },
+                                            {
+                                                "width": 257,
+                                                "height": 364
+                                            },
+                                            {
+                                                "width": 514,
+                                                "height": 728
+                                            },
+                                            {
+                                                "width": 1027,
+                                                "height": 1455
+                                            },
+                                            {
+                                                "width": 2054,
+                                                "height": 2910
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 2054,
+                                        "@id": "https://MultimedialitySummerSchool.github.io/parasole/images/LP_Dialoghi_Magino_Gabrielli",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 2910,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://MultimedialitySummerSchool.github.io/parasole/images/LP_Dialoghi_Magino_Gabrielli/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://MultimedialitySummerSchool.github.io/parasole/images/3_Specchio_delle_virtuose_donne_Isabella_Lavoro_Punto_In_Aria/canvas/",
             "type": "Canvas",
             "label": {
