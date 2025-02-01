@@ -23,5 +23,11 @@
       "none" : [ "2_Specchio_delle_virtuose_donne_Isabella_dedica" ]
     },
     "type" : "Manifest"
+  }, {
+    "id" : "https://MultimedialitySummerSchool.github.io/parasole/manifests/manifest_decorative_motifs.json",
+    "label" : {
+      "none" : [ "Il_modo_di_scrivere_Curione_LP_black_background" ]
+    },
+    "type" : "Manifest"
   } ]
 }
