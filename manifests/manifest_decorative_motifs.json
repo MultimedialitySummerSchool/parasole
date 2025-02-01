@@ -1,0 +1,73 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://MultimedialitySummerSchool.github.io/parasole/manifests/manifest_decorative_motifs.json",
+  "type" : "Manifest",
+  "label" : {
+    "none" : [ "Il_modo_di_scrivere_Curione_LP_black_background" ]
+  },
+  "thumbnail" : [ {
+    "id" : "http://127.0.0.1:8080/13/5c3a2ec6e6f3d1f7b6d1021d0f0dd540/full/300,229/0/default.jpg",
+    "type" : "Image",
+    "format" : "image/jpeg",
+    "height" : 229,
+    "width" : 300
+  } ],
+  "items" : [ {
+    "id" : "http://127.0.0.1:8080/13/canvas/1",
+    "type" : "Canvas",
+    "height" : 1054,
+    "width" : 1383,
+    "label" : {
+      "none" : [ "Il_modo_di_scrivere_Curione_LP_black_background" ]
+    },
+    "thumbnail" : [ {
+      "id" : "http://127.0.0.1:8080/13/5c3a2ec6e6f3d1f7b6d1021d0f0dd540/full/300,229/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 229,
+      "width" : 300
+    } ],
+    "items" : [ {
+      "id" : "http://127.0.0.1:8080/13/canvas/1/annopage-1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "http://127.0.0.1:8080/13/canvas/1/annopage-1/anno-1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "http://127.0.0.1:8080/13/canvas/1",
+        "body" : {
+          "id" : "http://127.0.0.1:8080/13/5c3a2ec6e6f3d1f7b6d1021d0f0dd540/full/1383,1054/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1054,
+          "width" : 1383,
+          "service" : [ {
+            "id" : "http://127.0.0.1:8080/13/5c3a2ec6e6f3d1f7b6d1021d0f0dd540",
+            "type" : "ImageService3",
+            "profile" : "http://iiif.io/api/image/3/level0.json"
+          } ]
+        }
+      } ]
+    } ],
+    "annotations" : [ {
+      "id" : "http://127.0.0.1:8080/13/canvas/1/annopage-2",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "http://127.0.0.1:8080/13/canvas/1/annopage-2/anno-1",
+        "type" : "Annotation",
+        "motivation" : "commenting",
+        "target" : "http://127.0.0.1:8080/13/canvas/1#xywh=53,46,1276,228",
+        "body" : {
+          "type" : "TextualBody",
+          "format" : "text/html",
+          "value" : {
+            "x" : 53,
+            "y" : 46,
+            "width" : 1276,
+            "height" : 228
+          }
+        }
+      } ]
+    } ]
+  } ]
+}
