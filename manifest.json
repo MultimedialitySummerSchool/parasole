@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "http://127.0.0.1:8080/1/manifest.json",
+    "id": "https://multimedialitysummerschool.github.io/parasole/manifest.json",
     "type": "Manifest",
     "label": {
         "none": [
