@@ -11,5 +11,11 @@
       "none" : [ "My IIIF Collection" ]
     },
     "type" : "Collection"
+  }, {
+    "id" : "https://MultimedialitySummerSchool.github.io/parasole/manifests/manifest.json",
+    "label" : {
+      "none" : [ "1_Specchio_delle_virtuose_donne_Isabella_Title_Page" ]
+    },
+    "type" : "Manifest"
   } ]
 }
