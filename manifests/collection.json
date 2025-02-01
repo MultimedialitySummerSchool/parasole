@@ -1,0 +1,15 @@
+{
+  "id" : "https://MultimedialitySummerSchool.github.io/parasole/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in MultimedialitySummerSchool/parasole project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://MultimedialitySummerSchool.github.io/parasole/manifests/index.json",
+    "label" : {
+      "none" : [ "My IIIF Collection" ]
+    },
+    "type" : "Collection"
+  } ]
+}
