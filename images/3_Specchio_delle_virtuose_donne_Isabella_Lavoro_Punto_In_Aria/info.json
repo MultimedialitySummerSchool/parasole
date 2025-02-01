@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 44,
+    "height" : 33
+  }, {
+    "width" : 88,
+    "height" : 66
+  }, {
+    "width" : 175,
+    "height" : 132
+  }, {
+    "width" : 349,
+    "height" : 264
+  }, {
+    "width" : 697,
+    "height" : 527
+  }, {
+    "width" : 1394,
+    "height" : 1054
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1394,
+  "@id" : "https://MultimedialitySummerSchool.github.io/parasole/images/3_Specchio_delle_virtuose_donne_Isabella_Lavoro_Punto_In_Aria",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1054
+}
