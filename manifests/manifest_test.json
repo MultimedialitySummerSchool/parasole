@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://MultimedialitySummerSchool.github.io/parasole/manifests/manifest_test.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://d4d6925f-84f3-4a02-a4bd-9d1e58874296",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://430f7fbe-56dc-4459-b21c-e2f5eb0be7f1",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 4000,
+      "width" : 2685,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://adf113a2-1215-40fe-a707-3fa8e20cd4cf",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://MultimedialitySummerSchool.github.io/GirolamaParasoleOnline/images/7_Girolama_The_Last_Judgment/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://MultimedialitySummerSchool.github.io/GirolamaParasoleOnline/images/7_Girolama_The_Last_Judgment",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 4000,
+          "width" : 2685
+        },
+        "on" : "http://430f7fbe-56dc-4459-b21c-e2f5eb0be7f1"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c81c8934-1344-4707-8957-7ba0c0a05d89",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 968,
+      "width" : 665,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9a37a8e5-e06c-4bdc-a82e-5d60fb2928e4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://MultimedialitySummerSchool.github.io/GirolamaParasoleOnline/images/18_Nux_Indica_Tesoro_Messicano/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://MultimedialitySummerSchool.github.io/GirolamaParasoleOnline/images/18_Nux_Indica_Tesoro_Messicano",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 968,
+          "width" : 665
+        },
+        "on" : "http://c81c8934-1344-4707-8957-7ba0c0a05d89"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
