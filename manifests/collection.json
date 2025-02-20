@@ -29,5 +29,9 @@
       "none" : [ "Il_modo_di_scrivere_Curione_LP_black_background" ]
     },
     "type" : "Manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://MultimedialitySummerSchool.github.io/parasole/manifests/manifest_test.json",
+    "label" : "[Click to edit label]"
   } ]
 }
